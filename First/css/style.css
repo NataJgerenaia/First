@@ -1,0 +1,9 @@
+header {
+   background-color: rgba(218, 210, 210, 0.74);
+}
+ul {
+    display: flex;
+}
+.header1 {
+    font-size: 25px;
+}
