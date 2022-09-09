@@ -232,19 +232,22 @@ a {
 }
 .buffalo {
     margin-left: 50px;
-    color: rgb(61, 53, 53);
+    color: rgb(108, 155, 116);
     font-style:italic;
 }
 .linediv {
     height: 1px;
     width: 50%;
     background-color: black;
-    margin-top: 20px;
-    margin-bottom: 50px;
+     margin-bottom: 30px;
 }
 .forsaleandtext {
     display: flex;
+    align-items: center;
+    margin: 10px 250px;
+    position: absolute;
 }
+
 .minimalistp {
     width: 500px;
     margin-top: 20px;
@@ -256,4 +259,18 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+.lineandtext {
+    margin-top:200px ;
+}
+.lastimagerow {
+    width: 300px;
+    height: 350px;
+}
+.lastrowdiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
 }
