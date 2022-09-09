@@ -1,9 +1,259 @@
-header {
-   background-color: rgba(218, 210, 210, 0.74);
-}
-ul {
+
+.container {
     display: flex;
 }
-.header1 {
-    font-size: 25px;
+.fixed {
+    position: fixed;
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.664);
+}
+
+
+ul {
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+a {
+    display: block;
+    color: black;
+}
+.list1 {
+    margin-right: 100px;
+    font-size: 20px;
+    color: black;
+   
+}
+.wraper {
+    display: flex;
+    justify-content:space-between;
+    max-width: 1024;
+    width: 100%;
+    padding: 10px;
+    flex-wrap: wrap;
+    z-index: 10;
+    
+}
+.warm {
+    margin-top: 100px;
+    font-weight: solid;
+    font-style:italic;
+}
+.second {
+    width: 5px;
+    font-size: 50px;
+}
+.title1 {
+    font-size: 90px;
+    width: 10px;
+    
+}
+.paragraph {
+    width: 300px;
+    font-size: 20px;
+    margin-top: 10px;
+    text-indent: 10px;
+    font: weight 500px;;
+    font-family:'Montserrat', sans-serif;
+}
+.second {
+    margin-top: 20px;
+}
+.div2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.handpic-container {
+    width: 500px;
+    height: 600px;
+    background-color: rgb(108, 155, 116);
+    padding: 5rem;
+}
+.handpic {
+    max-width: 100%;
+    object-fit:cover;
+}
+.button1 {
+    background-color:  rgb(108, 155, 116);
+    width: 110px;
+    height: 40px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 8px;
+    color: white;
+    font-weight: solid;
+    font-size: 19px;
+}
+  
+.text1 {
+    margin-right: 30px;
+}
+.bathroomimage {
+    background-image: url(images/bathroom.jpg);
+    background-size:100%;
+    width: 500px;
+    height: 650px;
+    overflow: hidden;
+}
+.greenbathroom {
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+}
+.greenplant-container {
+    background-image: url(images/greenplant.webp);
+    overflow: hidden;
+    background-size:100%;
+    height: 500px;
+    width: 500px;
+}
+.secondbutton {
+   margin-top: 50px;
+   margin-left: 150px;
+ }   
+ .title3 {
+    text-align: right;
+    margin-left: 150px;
+    width: 150px;
+   
+ }
+
+.greenplant{
+ width: 500px;
+ height: 500px;
+ object-fit: cover;
+ 
+}
+.greenplanttext {
+    margin-left: 10px;
+    background: center;
+    text-align: right;
+}
+
+.twoleaf {
+ width: 1000px;
+ margin: 0px auto;
+ margin-top: 20px;
+ 
+}
+.twoleafandtexton {
+    text-align: center;
+    position: relative;
+}
+.twoleafcube {
+    position: relative;
+}
+.texton {
+    position: absolute;
+    left: 500px;
+    width: 250px;
+    z-index: 2;
+    top: 130px;
+}
+.clear{
+    clear: both;
+}
+.habit {
+    font-size: 70px;
+}
+.liltext {
+    font-style: italic;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.thirdbutton {  
+    display: block;
+    margin: 50px auto;
+}
+.twoleafp {
+    width: 260px;
+}
+.bigtitlediv {
+    display: block;
+    text-align: center;
+}
+.maintitle {
+    font-size: 60px;
+    margin-top: 60px;
+}
+.nomain {
+    width: 1000px;
+    display: block;
+    margin: 20px auto;
+}
+.imageposition {
+    width: 350px;
+    height: 350px;
+    display: block;
+    margin: auto;
+}
+.picrow1 {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.between {
+    margin-top: 30px;
+}
+.learnmorebutton {
+    width: 150px;
+    height: 50px;
+    color:rgb(36, 31, 31);
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 20px;
+    display: block;
+    margin: 25px auto;
+}
+.imageA {
+    width: 350px;
+}
+.imagesAB {
+    display: flex;
+    flex-direction: column;
+}
+.forsale {
+    width: 150px;
+    height: 150px;
+    background-color:  rgb(108, 155, 116);
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+.forsaleandtext {
+    display: flex;
+    align-items: center;
+    font-size:20px;
+}
+.buffalo {
+    margin-left: 50px;
+    color: rgb(61, 53, 53);
+    font-style:italic;
+}
+.linediv {
+    height: 1px;
+    width: 50%;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.forsaleandtext {
+    display: flex;
+}
+.minimalistp {
+    width: 500px;
+    margin-top: 20px;
+}
+.minimalistheading {
+    font-size: 50px;
+}
+.textandimagesAB {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
